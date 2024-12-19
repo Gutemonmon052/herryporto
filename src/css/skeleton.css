@@ -21,7 +21,7 @@
 }
 
 .projectskl-card-desc-text {
-  @apply w-full h-[15px] rounded-md bg-[#8888884A];
+  @apply w-full h-[15px] rounded-md bg-[#3737374A];
 }
 
 .projectskl-card-media {
@@ -54,7 +54,7 @@
 }
 
 .experience-skl-text {
-  @apply w-full h-[15px] bg-[#8888884A] rounded-md;
+  @apply w-full h-[15px] bg-[#3737374A] rounded-md;
 }
 
 /*Testimonial Skeleton*/
@@ -80,7 +80,7 @@
 }
 
 .testimonials-skl-text {
-  @apply w-full h-[15px] bg-[#8888884A] rounded-md;
+  @apply w-full h-[15px] bg-[#3737374A] rounded-md;
 }
 
 /*Project Detail Skeleton*/
@@ -94,7 +94,7 @@
 }
 
 .projectdet-skl-id {
-  @apply w-[150px] h-[80px] bg-[#8888884A] rounded-md;
+  @apply w-[150px] h-[80px] bg-[#3737374A] rounded-md;
 }
 
 .projectdet-skl-title-text {
@@ -114,7 +114,7 @@
 }
 
 .projectdet-skl-content-data {
-  @apply w-full h-[20px] bg-[#8888884A] rounded-md;
+  @apply w-full h-[20px] bg-[#3737374A] rounded-md;
 }
 
 .projectdet-skl-content-2 {

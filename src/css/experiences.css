@@ -16,9 +16,8 @@
 }
 
 .experiences-list-year {
-  @apply w-fit h-fit flex flex-col
+  @apply w-fit h-fit flex flex-col;
 }
-
 
 .experiences-list-year h3 {
   font-family: "Raleway Bold";
@@ -32,5 +31,5 @@
 
 .experiences-list-desc {
   font-family: "Roboto Condensed";
-  @apply w-fit h-fit flex items-end justify-end text-[24px] max-md:text-[18px] text-[#888888] text-justify;
+  @apply w-fit h-fit flex items-end justify-end text-[24px] max-md:text-[18px] text-[#373737] text-justify;
 }

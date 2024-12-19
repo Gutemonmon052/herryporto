@@ -31,12 +31,12 @@
   @apply w-full h-fit flex flex-col items-start justify-center;
 }
 
-.testdt-info h5 {
+.testdt-info-name {
   font-family: "Raleway Bold";
   @apply text-[28px] text-[#4845DE] max-md:text-[24px];
 }
 
-.testdt-info p {
+.testdt-info-comment{
   font-family: "Roboto Condensed";
   @apply text-[18px] text-[#2A2A2A];
 }

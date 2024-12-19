@@ -13,7 +13,7 @@
 
 .aboutme-desc {
   font-family: "Roboto Condensed";
-  @apply gap-8 max-md:gap-4 w-full h-fit flex flex-col justify-between text-[22px] max-md:text-[18px] text-[#888888] text-justify;
+  @apply gap-8 max-md:gap-4 w-full h-fit flex flex-col justify-between text-[22px] max-md:text-[18px] text-[#373737] text-justify;
 }
 
 .aboutme-cover {
@@ -27,4 +27,3 @@
 .aboutme-image img {
   @apply w-full h-full object-cover;
 }
-

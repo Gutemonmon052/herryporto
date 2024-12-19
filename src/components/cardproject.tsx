@@ -20,7 +20,7 @@ export function CardProject(props: IProjects) {
         <div className="card-project">
           <div className="card-info">
             <div className="card-title">
-              <h4>{props.name}</h4>
+              <span>{props.name}</span>
             </div>
             <div className="card-desc">
               <p>{props.summary}</p>

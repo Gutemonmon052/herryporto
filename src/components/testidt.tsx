@@ -9,8 +9,12 @@ export function TestimonialsDt(props: ITestimonials) {
           {props.pic && <img src={props.pic.url} alt="" />}
         </div>
         <div className="testdt-info">
-          <h5>{props.name}</h5>
-          <p>{props.comment}</p>
+          <div className="testdt-info-name">
+            <span>{props.name}</span>
+          </div>
+          <div className="testdt-info-comment">
+            <p>{props.comment}</p>
+          </div>
         </div>
       </div>
     </div>

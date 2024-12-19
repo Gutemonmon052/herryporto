@@ -4,7 +4,7 @@
 }
 
 .navbar li {
-  @apply text-[16px] text-[#888888];
+  @apply text-[16px] text-[#373737];
 }
 /* @layer base {
 } */

@@ -1,68 +1,66 @@
-
-
-.contactme{
+.contactme {
   @apply w-full h-fit flex flex-col items-center justify-center gap-3 relative pt-72 px-24 pb-40 max-md:pt-5 max-md:px-2 max-md:pb-20;
 }
 
-.contactme-title{
+.contactme-title {
   font-family: "Raleway Bold";
   @apply w-full h-fit flex items-center justify-center text-[150px] max-md:text-[68px] max-md:leading-[68px] text-[#4845DE] text-center leading-[120px];
 }
 
-.contactme-content{
+.contactme-content {
   @apply w-full h-fit flex flex-row max-md:flex-col items-center justify-center gap-3 py-20 max-md:py-4;
 }
 
-.contactme-form{
+.contactme-form {
   @apply w-full h-fit flex flex-col items-center justify-center gap-3 px-4 shadow-[6px_4px_0_rgba(72,69,222,1)] rounded-lg p-10 border-2 border-[#4845DE];
 }
 
-.contactme-form input, .contactme-form textarea{
-  font-family: 'Roboto Condensed';
+.contactme-form input,
+.contactme-form textarea {
+  font-family: "Roboto Condensed";
   @apply w-full h-fit flex flex-col items-center justify-center gap-3 rounded-[12px] border-2 border-[#4845DE] px-4 py-5 text-[16px];
 }
 
-.contactme-form textarea{
+.contactme-form textarea {
   @apply h-[200px];
 }
 
-.contactme-form button{
+.contactme-form button {
   font-family: "Roboto Condensed";
   @apply w-full h-fit flex flex-col items-center justify-center gap-3 rounded-[12px] border-2 bg-[#4845DE] px-4 py-3 text-[#FAFAFA] text-[24px];
 }
 
-.contactme-form button:hover{
+.contactme-form button:hover {
   @apply bg-[#FAFAFA] text-[#4845DE];
 }
 
-.contactme-choice{
+.contactme-choice {
   font-family: "Raleway Bold";
   @apply w-fit h-fit flex flex-col items-center justify-center text-[68px] max-md:text-[48px] text-[#4845DE];
 }
 
-.contactme-info{
+.contactme-info {
   @apply w-full h-fit flex flex-col items-center justify-center gap-3;
 }
 
-.contactme-info-text{
+.contactme-info-text {
   font-family: "Roboto Condensed";
-  @apply w-fit h-fit flex text-[24px] max-md:text-[18px] text-[#888888];
+  @apply w-fit h-fit flex text-[24px] max-md:text-[18px] text-[#373737];
 }
 
-.contactme-info-sosmed{
+.contactme-info-sosmed {
   @apply w-full h-fit flex flex-row items-start justify-start gap-3;
 }
 
-.btn-sosmed{
-  @apply w-[50px] h-[50px] flex items-center justify-center border-[1px] border-[#4845DE] shadow-[6px_4px_0_rgba(72,69,222,1)] p-3 rounded-lg ;
+.btn-sosmed {
+  @apply w-[50px] h-[50px] flex items-center justify-center border-[1px] border-[#4845DE] shadow-[6px_4px_0_rgba(72,69,222,1)] p-3 rounded-lg;
 }
 
-.btn-sosmed:hover{
+.btn-sosmed:hover {
   @apply shadow-[3px_2px_0_rgba(72,69,222,1)] scale-105 transition-all duration-300 ease-in-out;
 }
 
-  
-  /* .contactme-info-item{
+/* .contactme-info-item{
     @apply w-fit h-fit flex flex-row items-center justify-center gap-14;
   }
 
@@ -78,7 +76,3 @@
     font-family: "Roboto Condensed";
     @apply w-full h-fit flex flex-col items-center justify-center text-[24px] max-md:text-[18px] text-[#4845DE];
   } */
-
-
-
-

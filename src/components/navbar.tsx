@@ -54,7 +54,7 @@ export function Navbar() {
             </li>
           </ul>
         </div>
-        <a>
+        <a href="/">
           <img
             src="/HLLogo.svg"
             alt="hero-logo"

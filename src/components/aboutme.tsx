@@ -26,9 +26,9 @@ export function AboutMe() {
         </div>
         <div className="aboutme-content">
           <div className="aboutme-desc">
-            <h4>
+            <p>
               <b>Core Skills</b>
-            </h4>
+            </p>
             <ul>
               <li>
                 <b>Front-End Development</b>: Proficient in HTML, CSS,
@@ -50,9 +50,9 @@ export function AboutMe() {
             </ul>
           </div>
           <div className="aboutme-desc">
-            <h4>
+            <p>
               <b>Key Values</b>
-            </h4>
+            </p>
             <p>
               I believe in delivering results with a strong emphasis on
               timeliness, attention to detail, and clear communication. My work
