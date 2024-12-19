@@ -8,7 +8,7 @@
 }
 
 .testimonials-list {
-  @apply w-full h-[500px] max-md:h-[1200px] flex flex-row overflow-x-scroll gap-6 p-14;
+  @apply w-full h-[500px] max-md:h-[1200px] flex flex-col overflow-y-scroll gap-6 p-14;
 }
 
 .testimonials-list::-webkit-scrollbar {
