@@ -1,20 +1,10 @@
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.tsx";
-import { Navbar } from "./components/navbar.tsx";
-import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
-import { Footer } from "./components/footer.tsx";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { BaseLayout } from "./components/baselayout.tsx";
 import ProjectDet from "./pages/projectdet.tsx";
 
-const BaseLayout = () => {
-  return (
-    <div>
-      <Navbar />
-      <Outlet />
-      <Footer />
-    </div>
-  );
-};
 
 const routers = createBrowserRouter([
   {

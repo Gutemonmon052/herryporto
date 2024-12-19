@@ -1,7 +1,7 @@
 import "../css/skills.css";
 import { Skillsdt } from "./skillsdt";
 
-export function Skills({}) {
+export function Skills() {
   return (
     <div>
       <div className="skills" id="skills">
