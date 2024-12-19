@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("https://db.onlinewebfonts.com/t/6e4a9679e65cc320746c3e5d48e51f28.eot");
+  src: url("https://db.onlinewebfonts.com/t/6e4a9679e65cc320746c3e5d48e51f28.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/6e4a9679e65cc320746c3e5d48e51f28.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/6e4a9679e65cc320746c3e5d48e51f28.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/6e4a9679e65cc320746c3e5d48e51f28.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/6e4a9679e65cc320746c3e5d48e51f28.svg#Raleway")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Raleway Bold";
+  src: url("https://db.onlinewebfonts.com/t/3b1a9a7b05c1e411253797b2fa3d1e91.eot");
+  src: url("https://db.onlinewebfonts.com/t/3b1a9a7b05c1e411253797b2fa3d1e91.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/3b1a9a7b05c1e411253797b2fa3d1e91.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/3b1a9a7b05c1e411253797b2fa3d1e91.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/3b1a9a7b05c1e411253797b2fa3d1e91.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/3b1a9a7b05c1e411253797b2fa3d1e91.svg#Raleway Bold")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("https://db.onlinewebfonts.com/t/8f7b8dc753ec34b0c7c3d748a835c38c.eot");
+  src: url("https://db.onlinewebfonts.com/t/8f7b8dc753ec34b0c7c3d748a835c38c.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/8f7b8dc753ec34b0c7c3d748a835c38c.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/8f7b8dc753ec34b0c7c3d748a835c38c.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/8f7b8dc753ec34b0c7c3d748a835c38c.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/8f7b8dc753ec34b0c7c3d748a835c38c.svg#Roboto Condensed")format("svg");
+}

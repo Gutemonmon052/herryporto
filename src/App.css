@@ -1,0 +1,15 @@
+@import './css/fonts.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+  body{
+    @apply m-0 p-0 bg-[#FAFAFA];
+  }
+}
+
+
+

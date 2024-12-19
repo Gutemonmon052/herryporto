@@ -1,0 +1,17 @@
+@import "../app.css";
+
+@layer base {
+  .sty-error {
+    @apply w-full h-fit flex flex-col justify-center items-start p-40 border-2 border-dashed border-[#888888];
+  }
+
+  .sty-error h2{
+    font-family: "Raleway Bold";
+    @apply w-full h-fit text-center text-[56px] text-red-700 
+  }
+
+  .sty-error p{
+    font-family: "Raleway";
+    @apply w-full h-fit text-center text-[28px] text-[#888888]
+  }
+}

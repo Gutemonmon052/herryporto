@@ -1,0 +1,21 @@
+@import '../App.css';
+
+@layer base{
+  .hlfooter{
+    @apply w-full h-fit flex flex-row items-center p-6 gap-6 bg-[#4845DE] max-md:gap-0 max-md:p-2;
+  }
+
+  .logo-white{
+    @apply w-[80px] h-[80px] max-md:w-[40px] max-md:h-[40px] flex items-center justify-center;
+  }
+
+  .logo-white img{
+    @apply w-full h-full object-cover;
+  }
+
+  .copyright{
+    font-family: 'Raleway';
+    @apply text-[24px] max-md:text-[16px] text-[#FAFAFA] text-justify;
+  }
+
+}

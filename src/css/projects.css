@@ -1,0 +1,47 @@
+@import "../App.css";
+
+@layer base {
+  .projects {
+    @apply w-full h-fit flex flex-col items-center justify-center gap-3 relative pt-20 px-20 pb-40 max-md:pt-20 max-md:px-6 max-md:pb-20;
+  }
+
+  .projects-title {
+    font-family: "Raleway Bold";
+    @apply w-full h-fit flex items-center justify-center text-[150px] max-md:text-[68px] text-[#4845DE] text-center max-md:px-5;
+  }
+
+  .projects-list {
+    @apply w-full h-fit grid grid-cols-3 max-md:grid-cols-1 items-center justify-center gap-10 max-md:gap-5;
+  }
+
+  .card-project {
+    @apply w-fit h-fit flex flex-col items-start justify-center gap-3 bg-[#FAFAFA] drop-shadow-[6px_4px_0_rgba(72,69,222,1)] rounded-[12px] border-2 border-[#4845DE];
+  }
+
+  .card-info {
+    @apply w-full h-fit flex flex-col items-start justify-center px-5 pt-9;
+  }
+
+  .card-title {
+    font-family: "Raleway Bold";
+    @apply w-full h-fit text-[36px] text-[#4845DE] line-clamp-2;
+  }
+
+  .card-desc {
+    font-family: "Roboto Condensed";
+    @apply text-[16px] text-[#5d5d5d] text-justify line-clamp-2 pt-2;
+  }
+
+  .card-media {
+    @apply w-full h-[200px] flex items-center justify-center border-y-2 border-[#4845DE];
+  }
+
+  .card-media img {
+    @apply w-full h-full object-cover;
+  }
+
+  .card-link {
+    font-family: "Raleway";
+    @apply w-full h-fit flex items-center justify-end text-[18px] text-[#4845DE] px-4 pb-4;
+  }
+}
