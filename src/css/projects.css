@@ -21,7 +21,7 @@
 
 .card-title {
   font-family: "Raleway Bold";
-  @apply w-full h-fit text-[22px] text-[#4845DE] line-clamp-2;
+  @apply w-full h-fit text-[18px] text-[#4845DE] line-clamp-3;
 }
 
 .card-desc {
