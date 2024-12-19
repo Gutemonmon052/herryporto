@@ -9,8 +9,6 @@ import { Testimonials } from './components/testimonials'
 import { Contact } from './components/contact'
 
 function App() {
-
-
   return (
     <>
      <Jumbotron/>

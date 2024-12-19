@@ -1,59 +1,54 @@
-@import '../App.css';
+.skills{
+  @apply w-full h-fit flex justify-center items-start relative px-20 pt-32 max-md:px-5 flex-col gap-10 max-md:pt-20;
+}
 
-@layer base{
-  .skills{
-    @apply w-full h-fit flex justify-center items-start relative px-20 pt-32 max-md:px-5 flex-col gap-10 max-md:pt-20;
-  }
+.skilltitle{
+  font-family: "Raleway Bold";
+  @apply text-[#4845DE] text-[125px] max-md:text-[72px]
+}
 
-  .skilltitle{
-    font-family: "Raleway Bold";
-    @apply text-[#4845DE] text-[125px] max-md:text-[72px]
-  }
+.skillsfe, .skillsbe, .skillsdev{
+  @apply flex justify-between items-center flex-row max-md:flex-col gap-10 rounded-xl shadow-[6px_4px_0_rgba(72,69,222,1)] px-14 border-2 border-[#4845DE];
+}
 
-  .skillsfe, .skillsbe, .skillsdev{
-    @apply flex justify-between items-center flex-row max-md:flex-col gap-10 rounded-xl shadow-[6px_4px_0_rgba(72,69,222,1)] px-14 border-2 border-[#4845DE];
-  }
+.skillsbe-container{
+  @apply w-full h-full flex justify-end items-end flex-row max-md:grid max-md:grid-cols-2
+}
 
-  .skillsbe-container{
-    @apply w-full h-full flex justify-end items-end flex-row max-md:grid max-md:grid-cols-2
-  }
-  
-  .skillsfe-title, .skillsbe-title, .skillsdev-title{
-    font-family: "Raleway Bold";
-    @apply w-full h-fit text-[64px] text-[#4845DE] max-md:text-[26px];
-  }
-  
-  .skillsbe-title{
-    @apply text-right text-[64px] max-md:text-[26px];
-  }
+.skillsfe-title, .skillsbe-title, .skillsdev-title{
+  font-family: "Raleway Bold";
+  @apply w-full h-fit text-[64px] text-[#4845DE] max-md:text-[26px];
+}
 
-  .skillsdev-title{
-    @apply text-[56px] max-md:text-[26px];
-  }
+.skillsbe-title{
+  @apply text-right text-[64px] max-md:text-[26px];
+}
 
-  .skillsfe, .skillsbe, .skillsdev{
-    @apply w-full h-fit flex flex-row justify-between py-12;
-  }
+.skillsdev-title{
+  @apply text-[56px] max-md:text-[26px];
+}
 
-  .skillsfe-det{
-    @apply w-full h-fit flex flex-row gap-5 max-md:gap-3 max-md:grid max-md:grid-cols-2 max-md:pr-6;
-  }
+.skillsfe, .skillsbe, .skillsdev{
+  @apply w-full h-fit flex flex-row justify-between py-12;
+}
 
-  .skillsbe-det{
-    @apply w-full h-fit flex flex-row gap-5 items-end;
-  }
+.skillsfe-det{
+  @apply w-full h-fit flex flex-row gap-5 max-md:gap-3 max-md:grid max-md:grid-cols-2 max-md:pr-6;
+}
 
-  .skillsdev-det{
-    @apply grid grid-cols-3 gap-5 max-md:grid-cols-2  max-md:pr-6 max-md:gap-4;
-  }
+.skillsbe-det{
+  @apply w-full h-fit flex flex-row gap-5 items-end;
+}
 
-  .skilldt{
-    font-family: "Roboto Condensed";
-    @apply w-fit h-fit text-[24px] max-md:text-[18px] text-[#4845DE] border-[2px] border-[#4845DE] bg-transparent p-6 max-md:p-7 flex items-center justify-center rounded-xl max-md:w-full shadow-[6px_4px_0_rgba(72,69,222,1)];
-  }
+.skillsdev-det{
+  @apply grid grid-cols-3 gap-5 max-md:grid-cols-2  max-md:pr-6 max-md:gap-4;
+}
 
-  .skilldt:hover{
-    @apply bg-[#4845DE] text-[#FAFAFA] shadow-[3px_2px_0_rgba(72,69,222,1)] scale-105 transition-all duration-300 ease-in-out;
-  }
-    
+.skilldt{
+  font-family: "Roboto Condensed";
+  @apply w-fit h-fit text-[24px] max-md:text-[18px] text-[#4845DE] border-[2px] border-[#4845DE] bg-transparent p-6 max-md:p-7 flex items-center justify-center rounded-xl max-md:w-full shadow-[6px_4px_0_rgba(72,69,222,1)];
+}
+
+.skilldt:hover{
+  @apply bg-[#4845DE] text-[#FAFAFA] shadow-[3px_2px_0_rgba(72,69,222,1)] scale-105 transition-all duration-300 ease-in-out;
 }

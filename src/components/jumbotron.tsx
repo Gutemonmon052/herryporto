@@ -1,9 +1,6 @@
 import "../css/jumbotron.css";
 
-
 export function Jumbotron() {
-
-
   return (
     <div>
       <div className="jumbotron" id="home">

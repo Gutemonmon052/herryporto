@@ -1,12 +1,10 @@
-@import "../App.css";
-
-@layer base {
-  .navbar {
-    font-family: "Roboto Condensed";
-    @apply z-50 fixed;
-  }
-
-  .navbar li {
-    @apply text-[16px] text-[#888888];
-  }
+.navbar {
+  font-family: "Roboto Condensed";
+  @apply z-50 fixed;
 }
+
+.navbar li {
+  @apply text-[16px] text-[#888888];
+}
+/* @layer base {
+} */

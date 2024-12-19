@@ -1,40 +1,36 @@
-@import "../App.css";
+.experiences {
+  @apply w-fit h-fit flex flex-col relative pt-28 px-20 pb-40 max-md:pt-20 max-md:px-5 max-md:pb-20;
+}
 
-@layer base {
-  .experiences {
-    @apply w-fit h-fit flex flex-col relative pt-28 px-20 pb-40 max-md:pt-20 max-md:px-5 max-md:pb-20;
-  }
+.experiences-title {
+  font-family: "Raleway Bold";
+  @apply w-full h-fit flex items-center justify-center text-[150px] max-md:text-[52px] text-[#4845DE] leading-[150px] max-md:leading-[68px] text-center tracking-wide max-md:tracking-normal;
+}
 
-  .experiences-title {
-    font-family: "Raleway Bold";
-    @apply w-full h-fit flex items-center justify-center text-[150px] max-md:text-[52px] text-[#4845DE] leading-[150px] max-md:leading-[68px] text-center tracking-wide max-md:tracking-normal;
-  }
+.experiences-list {
+  @apply w-full h-fit flex flex-col items-center justify-center gap-5 px-[30px] max-md:px-1 pt-5;
+}
 
-  .experiences-list {
-    @apply w-full h-fit flex flex-col items-center justify-center gap-5 px-[30px] max-md:px-1 pt-5;
-  }
+.experiences-list-dt {
+  @apply w-full h-fit flex flex-col items-start justify-start;
+}
 
-  .experiences-list-dt {
-    @apply w-full h-fit flex flex-col items-start justify-start;
-  }
-
-  .experiences-list-year {
-    @apply w-fit h-fit flex flex-col
-  }
+.experiences-list-year {
+  @apply w-fit h-fit flex flex-col
+}
 
 
-  .experiences-list-year h3 {
-    font-family: "Raleway Bold";
-    @apply text-[64px] text-[#4845DE] max-md:text-[34px];
-  }
+.experiences-list-year h3 {
+  font-family: "Raleway Bold";
+  @apply text-[64px] text-[#4845DE] max-md:text-[34px];
+}
 
-  .experiences-list-year p {
-    font-family: "Raleway";
-    @apply text-[36px] text-[#4845DE] max-md:text-[24px];
-  }
+.experiences-list-year p {
+  font-family: "Raleway";
+  @apply text-[36px] text-[#4845DE] max-md:text-[24px];
+}
 
-  .experiences-list-desc {
-    font-family: "Roboto Condensed";
-    @apply w-fit h-fit flex items-end justify-end text-[24px] max-md:text-[18px] text-[#888888] text-justify;
-  }
+.experiences-list-desc {
+  font-family: "Roboto Condensed";
+  @apply w-fit h-fit flex items-end justify-end text-[24px] max-md:text-[18px] text-[#888888] text-justify;
 }

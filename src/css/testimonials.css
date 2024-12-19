@@ -1,48 +1,42 @@
-@import '../App.css';
+.testimonials {
+  @apply w-full h-fit max-md:h-[800px] flex flex-row max-md:flex-col items-start justify-start gap-8 relative pt-40 px-20 pb-40 overflow-hidden max-md:pt-5 max-md:px-5 max-md:pb-20;
+}
 
-@layer base{
-  .testimonials{
-    @apply w-full h-fit max-md:h-[800px] flex flex-row max-md:flex-col items-start justify-start gap-8 relative pt-40 px-20 pb-40 overflow-hidden max-md:pt-5 max-md:px-5 max-md:pb-20;
-  }
+.testimonials-title {
+  font-family: "Raleway Bold";
+  @apply text-[150px] text-[#4845DE] text-justify leading-[150px] max-md:text-[78px] max-md:leading-[78px];
+}
 
-  .testimonials-title{
-    font-family: "Raleway Bold";
-    @apply text-[150px] text-[#4845DE] text-justify leading-[150px] max-md:text-[78px] max-md:leading-[78px];
-  }
+.testimonials-list {
+  @apply w-full h-[500px] max-md:h-[1200px] flex flex-col overflow-y-scroll gap-6 p-14;
+}
 
-  .testimonials-list{
-    @apply w-full h-[500px] max-md:h-[1200px] flex flex-col overflow-y-scroll gap-6 p-14;
-  }
+.testimonials-list::-webkit-scrollbar {
+  display: none;
+}
 
-  .testimonials-list::-webkit-scrollbar{  
-    display: none;
-  } 
+.testdt {
+  @apply w-full h-fit flex flex-row items-start justify-between gap-3 rounded-[12px] bg-[#FAFAFA] drop-shadow-[6px_4px_0_rgba(72,69,222,1)] border-2 border-[#4845DE] p-8;
+}
 
+.testdt-media {
+  @apply w-[60px] h-[60px] rounded-full bg-[#4845DE] flex items-center justify-center overflow-hidden;
+}
 
-  .testdt{
-    @apply w-full h-fit flex flex-row items-start justify-between gap-3 rounded-[12px] bg-[#FAFAFA] drop-shadow-[6px_4px_0_rgba(72,69,222,1)] border-2 border-[#4845DE] p-8;
-  }
+.testdt-media img {
+  @apply w-full h-full object-cover;
+}
 
+.testdt-info {
+  @apply w-full h-fit flex flex-col items-start justify-center;
+}
 
-  .testdt-media{
-    @apply w-[60px] h-[60px] rounded-full bg-[#4845DE] flex items-center justify-center overflow-hidden;
-  }
+.testdt-info h5 {
+  font-family: "Raleway Bold";
+  @apply text-[28px] text-[#4845DE] max-md:text-[24px];
+}
 
-  .testdt-media img{
-    @apply w-full h-full object-cover;
-  }
-
-  .testdt-info{
-    @apply w-full h-fit flex flex-col items-start justify-center;
-  }
-
-  .testdt-info h5{
-    font-family: "Raleway Bold";
-    @apply text-[28px] text-[#4845DE] max-md:text-[24px];
-  }
-
-  .testdt-info p{
-    font-family: "Roboto Condensed";
-    @apply text-[18px] text-[#2A2A2A];
-  }
+.testdt-info p {
+  font-family: "Roboto Condensed";
+  @apply text-[18px] text-[#2A2A2A];
 }

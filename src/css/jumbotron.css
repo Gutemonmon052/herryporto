@@ -1,66 +1,66 @@
-@import "../App.css";
+/* @import "../App.css"; */
 
-@layer base {
-  .jumbotron {
-    @apply w-full h-fit flex flex-col items-center justify-center relative;
-  }
-
-  .jumbotron-intro {
-    @apply w-full h-full flex flex-col items-center justify-center gap-10 pt-40 max-md:pt-32;
-  }
-
-  .cover {
-    @apply w-full h-full bg-[#0d0a587b] absolute z-[1];
-  }
-
-  .jumbotron-image {
-    @apply w-full h-[350px] relative max-md:h-[180px];
-  }
-
-  .jumbotron-image img {
-    @apply w-full h-full object-cover;
-  }
-
-  .jumbotron-iden-desc-1 {
-    @apply w-full h-fit flex flex-row max-md:flex-col max-md:gap-8 justify-between items-start max-md:justify-center max-md:items-center px-20 max-md:px-10;
-  }
-
-  .jumbotron-identity {
-    @apply w-fit h-fit flex flex-col items-start gap-20 max-md:gap-1;
-  }
-
-  .jumbotron-identity {
-    @apply pt-10 max-md:pt-0;
-  }
-
-  .jumbotron-iden-title {
-    font-family: "Raleway Bold";
-    @apply w-full h-fit flex items-center justify-center text-center text-[200px] leading-[180px] text-[#4845DE] tracking-normal max-md:text-[96px] max-md:leading-[80px];
-  }
-
-  .jumbotron-iden-prof {
-    font-family: "Raleway Bold";
-    @apply text-[30px] text-[#FAFAFA] tracking-normal bg-[#4845DE] p-5 max-md:text-[24px] max-md:p-3;
-  }
-
-  .jumbotron-desc {
-    font-family: "Roboto Condensed";
-    @apply w-fit h-fit flex flex-col gap-8 px-24 items-end max-md:px-2;
-  }
-
-  .desc {
-    @apply text-[56px] max-md:text-[24px] text-[#262626] tracking-normal text-justify;
-  }
-
-  .jumbotron-iden-desc {
-    font-family: "Roboto Condensed";
-    @apply w-full h-fit flex items-end justify-end;
-  }
-
-  .desc-1 {
-    @apply w-[30%] max-md:w-full h-fit text-[20px] text-[#26262691] tracking-normal text-justify flex flex-col justify-end items-end gap-4;
-  }
+.jumbotron {
+  @apply w-full h-fit flex flex-col items-center justify-center relative;
 }
+
+.jumbotron-intro {
+  @apply w-full h-full flex flex-col items-center justify-center gap-10 pt-40 max-md:pt-32;
+}
+
+.cover {
+  @apply w-full h-full bg-[#0d0a587b] absolute z-[1];
+}
+
+.jumbotron-image {
+  @apply w-full h-[350px] relative max-md:h-[180px];
+}
+
+.jumbotron-image img {
+  @apply w-full h-full object-cover;
+}
+
+.jumbotron-iden-desc-1 {
+  @apply w-full h-fit flex flex-row max-md:flex-col max-md:gap-8 justify-between items-start max-md:justify-center max-md:items-center px-20 max-md:px-10;
+}
+
+.jumbotron-identity {
+  @apply w-fit h-fit flex flex-col items-start gap-20 max-md:gap-1;
+}
+
+.jumbotron-identity {
+  @apply pt-10 max-md:pt-0;
+}
+
+.jumbotron-iden-title {
+  font-family: "Raleway Bold";
+  @apply w-full h-fit flex items-center justify-center text-center text-[200px] leading-[180px] text-[#4845DE] tracking-normal max-md:text-[96px] max-md:leading-[80px];
+}
+
+.jumbotron-iden-prof {
+  font-family: "Raleway Bold";
+  @apply text-[30px] text-[#FAFAFA] tracking-normal bg-[#4845DE] p-5 max-md:text-[24px] max-md:p-3;
+}
+
+.jumbotron-desc {
+  font-family: "Roboto Condensed";
+  @apply w-fit h-fit flex flex-col gap-8 px-24 items-end max-md:px-2;
+}
+
+.desc {
+  @apply text-[56px] max-md:text-[24px] text-[#262626] tracking-normal text-justify;
+}
+
+.jumbotron-iden-desc {
+  font-family: "Roboto Condensed";
+  @apply w-full h-fit flex items-end justify-end;
+}
+
+.desc-1 {
+  @apply w-[30%] max-md:w-full h-fit text-[20px] text-[#26262691] tracking-normal text-justify flex flex-col justify-end items-end gap-4;
+}
+/* @layer base {
+} */
 
 /* .btn{
     @apply w-fit h-fit flex items-center justify-center bg-[#4845DE] text-[#FAFAFA] text-[24px] max-md:text-[16px] max-md:p-4 tracking-normal p-7 rounded-[10px] cursor-pointer;

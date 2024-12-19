@@ -1,139 +1,134 @@
-@import "../app.css";
+/*Project Skeleton*/
 
-@layer base {
+.projectskl-card {
+  @apply w-full h-fit flex flex-col items-center justify-center gap-3 bg-[#FAFAFA] drop-shadow-[6px_4px_5px_rgba(72,69,222,0.4)] rounded-[12px] border-2 border-[#4845de74] animate-pulse;
+}
 
-  /*Project Skeleton*/
+.projectskl-card-info {
+  @apply w-full h-fit flex flex-col items-center justify-center px-5 pt-9 gap-5;
+}
 
-  .projectskl-card {
-    @apply w-full h-fit flex flex-col items-center justify-center gap-3 bg-[#FAFAFA] drop-shadow-[6px_4px_5px_rgba(72,69,222,0.4)] rounded-[12px] border-2 border-[#4845de74] animate-pulse;
-  }
+.projectskl-card-title {
+  @apply w-full h-fit flex flex-col items-center justify-center gap-3;
+}
 
-  .projectskl-card-info {
-    @apply w-full h-fit flex flex-col items-center justify-center px-5 pt-9 gap-5;
-  }
+.projectskl-card-title-text {
+  @apply w-full h-[30px] rounded-md bg-[#4845DE4A];
+}
 
-  .projectskl-card-title {
-    @apply w-full h-fit flex flex-col items-center justify-center gap-3;
-  }
+.projectskl-card-desc {
+  @apply w-full h-fit flex flex-col items-center justify-center gap-3;
+}
 
-  .projectskl-card-title-text {
-    @apply w-full h-[30px] rounded-md bg-[#4845DE4A];
-  }
+.projectskl-card-desc-text {
+  @apply w-full h-[15px] rounded-md bg-[#8888884A];
+}
 
-  .projectskl-card-desc {
-    @apply w-full h-fit flex flex-col items-center justify-center gap-3;
-  }
+.projectskl-card-media {
+  @apply w-full h-[200px] rounded-md bg-[#4845DE4A];
+}
 
-  .projectskl-card-desc-text {
-    @apply w-full h-[15px] rounded-md bg-[#8888884A];
-  }
+.projectskl-card-link {
+  @apply w-full h-fit flex flex-col items-end justify-end gap-3 p-5;
+}
 
-  .projectskl-card-media {
-    @apply w-full h-[200px] rounded-md bg-[#4845DE4A];
-  }
+.projectskl-card-link-btn {
+  @apply w-[70px] h-[30px] rounded-md bg-[#4845DE4A];
+}
 
-  .projectskl-card-link {
-    @apply w-full h-fit flex flex-col items-end justify-end gap-3 p-5;
-  }
+/*Experience Skeleton*/
+.experience-skl {
+  @apply w-full h-fit flex flex-col gap-5 animate-pulse pt-8;
+}
 
-  .projectskl-card-link-btn {
-    @apply w-[70px] h-[30px] rounded-md bg-[#4845DE4A];
-  }
+.experience-skl-year {
+  @apply w-[500px] h-[60px] bg-[#4845DE4A] rounded-md;
+}
 
-  /*Experience Skeleton*/
-  .experience-skl{
-    @apply w-full h-fit flex flex-col gap-5 animate-pulse pt-8;
-  }
+.experience-skl-job {
+  @apply w-[300px] h-[40px] bg-[#4845DE4A] rounded-md;
+}
 
-  .experience-skl-year{
-    @apply w-[500px] h-[60px] bg-[#4845DE4A] rounded-md;
-  }
+.experience-skl-desc {
+  @apply w-full h-fit flex flex-col gap-3;
+}
 
-  .experience-skl-job{
-    @apply w-[300px] h-[40px] bg-[#4845DE4A] rounded-md;
-  }
+.experience-skl-text {
+  @apply w-full h-[15px] bg-[#8888884A] rounded-md;
+}
 
-  .experience-skl-desc{
-    @apply w-full h-fit flex flex-col gap-3;
-  }
+/*Testimonial Skeleton*/
 
-  .experience-skl-text{
-    @apply w-full h-[15px] bg-[#8888884A] rounded-md;
-  }
+.testimonials-skl {
+  @apply w-full h-fit flex flex-row gap-5 animate-pulse;
+}
 
-  /*Testimonial Skeleton*/
+.testimonials-skl-media {
+  @apply w-[70px] h-[70px] rounded-full bg-[#4845DE4A];
+}
 
-  .testimonials-skl{
-    @apply w-full h-fit flex flex-row gap-5 animate-pulse;
-  }
+.testimonials-skl-info {
+  @apply w-full h-fit flex flex-col gap-3;
+}
 
-  .testimonials-skl-media{
-    @apply w-[70px] h-[70px] rounded-full bg-[#4845DE4A];
-  }
+.testimonials-skl-name {
+  @apply w-[150px] h-[30px] bg-[#4845DE4A] rounded-md;
+}
 
-  .testimonials-skl-info{
-    @apply w-full h-fit flex flex-col gap-3;
-  }
+.testimonials-skl-comment {
+  @apply w-full h-fit flex flex-col gap-3;
+}
 
-  .testimonials-skl-name{
-    @apply w-[150px] h-[30px] bg-[#4845DE4A] rounded-md;
-  }
+.testimonials-skl-text {
+  @apply w-full h-[15px] bg-[#8888884A] rounded-md;
+}
 
-  .testimonials-skl-comment{
-    @apply w-full h-fit flex flex-col gap-3;
-  }
+/*Project Detail Skeleton*/
 
-  .testimonials-skl-text{
-    @apply w-full h-[15px] bg-[#8888884A] rounded-md;
-  }
+.projectdet-skl {
+  @apply px-20 py-32 w-full h-fit flex flex-col gap-5 animate-pulse;
+}
 
-  /*Project Detail Skeleton*/
+.projectdet-skl-title {
+  @apply w-full h-fit flex flex-row gap-3 justify-between;
+}
 
-  .projectdet-skl{
-    @apply px-20 py-32 w-full h-fit flex flex-col gap-5 animate-pulse;
-  }
+.projectdet-skl-id {
+  @apply w-[150px] h-[80px] bg-[#8888884A] rounded-md;
+}
 
-  .projectdet-skl-title{
-    @apply w-full h-fit flex flex-row gap-3 justify-between;
-  }
+.projectdet-skl-title-text {
+  @apply w-full h-fit flex flex-col gap-3;
+}
 
-  .projectdet-skl-id{
-    @apply w-[150px] h-[80px] bg-[#8888884A] rounded-md;
-  }
-  
-  .projectdet-skl-title-text{
-    @apply w-full h-fit flex flex-col gap-3;
-  }
+.projectdet-skl-title-data {
+  @apply w-full h-[50px] bg-[#4845DE4A] rounded-md;
+}
 
-  .projectdet-skl-title-data{
-    @apply w-full h-[50px] bg-[#4845DE4A] rounded-md;
-  }
+.projectdet-skl-media {
+  @apply w-full h-[450px] bg-[#4845DE4A] rounded-md;
+}
 
-  .projectdet-skl-media{
-    @apply w-full h-[450px] bg-[#4845DE4A] rounded-md;
-  }
+.projectdet-skl-content {
+  @apply w-full h-fit flex flex-col gap-5;
+}
 
-  .projectdet-skl-content{
-    @apply w-full h-fit flex flex-col gap-5;
-  }
+.projectdet-skl-content-data {
+  @apply w-full h-[20px] bg-[#8888884A] rounded-md;
+}
 
-  .projectdet-skl-content-data{
-    @apply w-full h-[20px] bg-[#8888884A] rounded-md;
-  }
+.projectdet-skl-content-2 {
+  @apply w-full h-fit flex flex-row gap-5;
+}
 
-  .projectdet-skl-content-2{
-    @apply w-full h-fit flex flex-row gap-5;
-  }
-  
-  .projectdet-skl-content-2-1{
-    @apply w-full h-fit flex flex-col gap-3;
-  }
+.projectdet-skl-content-2-1 {
+  @apply w-full h-fit flex flex-col gap-3;
+}
 
-  .projectdet-skl-link{
-    @apply w-full h-fit flex items-end justify-end ;
-  }
+.projectdet-skl-link {
+  @apply w-full h-fit flex items-end justify-end;
+}
 
-  .projectdet-skl-btn{
-    @apply w-[80px] h-[80px] rounded-md bg-[#4845DE4A];
-  }
+.projectdet-skl-btn {
+  @apply w-[80px] h-[80px] rounded-md bg-[#4845DE4A];
 }
