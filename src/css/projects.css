@@ -15,6 +15,10 @@
   @apply w-fit h-fit flex flex-col items-start justify-center gap-3 bg-[#FAFAFA] drop-shadow-[6px_4px_0_rgba(72,69,222,1)] rounded-[12px] border-2 border-[#4845DE];
 }
 
+.card-project:hover {
+  @apply scale-105 transition-all ease-in duration-300;
+}
+
 .card-info {
   @apply w-full h-fit flex flex-col items-start justify-center px-5 pt-9;
 }

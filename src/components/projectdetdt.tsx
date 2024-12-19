@@ -31,8 +31,8 @@ export function ProjectDetDt(props: IProjects) {
       </div>
       <div className="projectdet-btn-link">
         <a href={props.link}>
-          <div className="projectdet-link">
-            <img src="../assets/images/play-solid.svg" alt="arrow" />
+          <div className="btn btn-primary">
+            <b>View More</b>
           </div>
         </a>
       </div>
