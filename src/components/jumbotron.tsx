@@ -14,7 +14,7 @@ export function Jumbotron() {
           </div>
           <div className="jumbotron-image">
             <div className="cover"></div>
-            <img src="/assets/images/heropic-2.webp" alt="hero-jumbotron" />
+            <img src="/assets/images/heropic-2.svg" alt="hero-jumbotron" />
           </div>
           <div className="jumbotron-identity">
             <div className="jumbotron-iden-desc">

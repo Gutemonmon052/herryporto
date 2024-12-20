@@ -9,7 +9,7 @@ export function AboutMe() {
             <div className="aboutme-title">
               <div className="aboutme-image">
                 <div className="aboutme-cover"></div>
-                <img src="/assets/images/heropic-1.webp" alt="hero-jumbotron" />
+                <img src="/assets/images/heropic-1.svg" alt="hero-jumbotron" />
               </div>
               <h2>ME</h2>
             </div>
