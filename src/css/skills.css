@@ -46,7 +46,7 @@
 
 .skilldt{
   font-family: "Roboto Condensed";
-  @apply w-fit h-fit text-[24px] max-md:text-[16px] text-[#4845DE] border-[2px] border-[#4845DE] bg-transparent p-6 max-md:p-4 flex items-center justify-center rounded-xl max-md:w-full shadow-[6px_4px_0_rgba(72,69,222,1)];
+  @apply w-fit h-fit text-[24px] max-md:text-[14px] text-[#4845DE] border-[2px] border-[#4845DE] bg-transparent p-6 max-md:p-5 flex items-center justify-center rounded-xl max-md:w-full shadow-[6px_4px_0_rgba(72,69,222,1)];
 }
 
 .skilldt:hover{
