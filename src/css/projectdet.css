@@ -29,7 +29,7 @@
 
 .projectdet-title-text {
   font-family: "Raleway Bold";
-  @apply w-full h-full flex items-start justify-start text-[94px] max-md:text-[56px] max-md:leading-[54px] text-[#4845DE] text-right leading-[98px];
+  @apply w-full h-full flex items-start justify-start text-[94px] max-md:text-[44px] max-md:leading-[46px] text-[#4845DE] text-right leading-[98px];
 }
 
 .projectdet-content {
