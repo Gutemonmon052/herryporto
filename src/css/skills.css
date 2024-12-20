@@ -33,7 +33,7 @@
 }
 
 .skillsfe-det{
-  @apply w-full h-fit flex flex-row gap-5 max-md:gap-3 max-md:grid max-md:grid-cols-2 max-md:pr-6;
+  @apply w-full h-fit flex flex-row gap-5 max-md:gap-5 max-md:grid max-md:grid-cols-2 max-md:pr-6;
 }
 
 .skillsbe-det{
