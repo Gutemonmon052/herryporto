@@ -86,7 +86,7 @@
 /*Project Detail Skeleton*/
 
 .projectdet-skl {
-  @apply px-20 py-32 w-full h-fit flex flex-col gap-5 animate-pulse;
+  @apply px-20 py-32 max-md:px-3 w-full h-fit flex flex-col gap-5 animate-pulse;
 }
 
 .projectdet-skl-title {
